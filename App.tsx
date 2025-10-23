@@ -13,7 +13,7 @@ export default function App() {
   // Predefined courses
   const courses = ['Starters', 'Mains', 'Desserts'];
 
-  // Preloaded demo data for visuals (mockup dishes)
+
   const [menuItems, setMenuItems] = useState([
     {
       id: '1',
@@ -232,7 +232,7 @@ export default function App() {
   return null;
 }
 
-// STYLES
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
